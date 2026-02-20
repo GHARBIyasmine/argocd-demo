@@ -12,12 +12,12 @@ spec:
   destination:
     server: https://kubernetes.default.svc
     namespace: basic-app-ns
-syncPolicy:
-  syncOptions:
-  - CreateNamespace=true
-  automated:
-    selfHeal: true
-    prune: true
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
+    automated:
+      selfHeal: true
+      prune: true
 
  
  
